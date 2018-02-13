@@ -1,0 +1,6 @@
+/vendor
+/test/integration/laravel/*
+!/test/integration/laravel/src
+!/test/integration/laravel/composer.json
+/composer.lock
+/playground.php

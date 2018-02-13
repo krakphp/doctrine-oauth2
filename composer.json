@@ -1,0 +1,22 @@
+{
+    "name": "krak/laravel-oauth2",
+    "description": "Laravel OAuth2 Integration with Doctrine",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "oauth2",
+        "laravel",
+        "doctrine"
+    ],
+    "authors": [
+        {
+            "name": "RJ Garcia",
+            "email": "rj@bighead.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Krak\\DoctrineOAuth2\\": "src"
+        }
+    }
+}
