@@ -1,6 +1,6 @@
 {
-    "name": "krak/laravel-oauth2",
-    "description": "Laravel OAuth2 Integration with Doctrine",
+    "name": "krak/doctrine-oauth2",
+    "description": "Doctrine and Laravel OAuth2 Integration",
     "type": "library",
     "license": "MIT",
     "keywords": [
