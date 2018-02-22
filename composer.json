@@ -18,5 +18,8 @@
         "psr-4": {
             "Krak\\DoctrineOAuth2\\": "src"
         }
+    },
+    "require": {
+        "league/oauth2-server": "^7.0"
     }
 }

@@ -15,7 +15,7 @@ class ClientRepository implements ClientRepositoryInterface
         $this->em = $em;
     }
 
-    public function getClientEntity($clientId, $grantType, $clientSecret = null, $mustValidateSecret = true) {
+    public function getClientEntity($clientId, $grantType = null, $clientSecret = null, $mustValidateSecret = true) {
         $client = $this->em->find(Client::class, $clientId);
         if (!$client) {
             return;
