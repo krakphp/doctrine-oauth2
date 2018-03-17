@@ -32,7 +32,8 @@ final class OAuth2ServiceProvider extends ServiceProvider
     public function register() {
         $this->commands([
             DoctrineOAuth2\Console\GenerateKeysCommand::class,
-            DoctrineOAuth2\Console\SeedCommand::class
+            DoctrineOAuth2\Console\SeedCommand::class,
+            AccessTokenCommand::class,
         ]);
 
         $this->publishes([

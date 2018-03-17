@@ -21,5 +21,12 @@
     },
     "require": {
         "league/oauth2-server": "^7.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Krak\\DoctrineOAuth2\\Provider\\Laravel\\OAuth2ServiceProvider"
+            ]
+        }
     }
 }
